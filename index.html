@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment6</title>
+
+	<style type="text/css">
+
+	div ul li{
+		/*display: inline-block;*/
+		list-style: none;
+		/*display: inline-block;*/
+		position: relative;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		font-family: arial;
+		text-align: center;
+		width: 200px;
+		height: 300px;
+	}
+	
+	#p1{
+		display: none;
+		color: brown;
+		width: 200px;
+		height: 300px;
+		position: relative;
+		top: 50%;
+		font-size: 20pt;
+
+	}
+
+	#p2{
+		display: none;
+		color: yellow;
+		width: 200px;
+		height: 300px;
+		position: relative;
+		top: 50%;
+		font-size: 20pt;
+
+	}
+
+	#p3{
+		display: none;
+		color: pink;
+		width: 200px;
+		height: 300px;
+		position: relative;
+		top: 50%;
+		font-size: 20pt;
+	}
+
+	</style>
+</head>
+<body>
+
+<div>
+	<ul>
+		<li>
+			<p>Hover Over Me</p>
+			<img src="images/chocolate.jpg" id="img1">
+			<p id="p1">CHOCOLATE</p>
+		</li>
+		<br>
+		<br>
+		<li>
+			<p>Click Me</p>
+			<img src="images/vanilla.jpg" id="img2">
+			<p id="p2">VANILLA</p>
+		</li>
+		<br>
+		<br>
+		<li>
+			<button id="button1">Tell Me The Flavor</button>
+			<br>
+			<button id="button2">Show Me The Picture</button>
+			<img src="images/strawberry.jpg" id="img3">
+			<p id="p3">STRAWBERRY</p>
+		</li>
+	
+	</ul>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="java/cheatsheet.js"></script>
+	
+</body>
+</html>
