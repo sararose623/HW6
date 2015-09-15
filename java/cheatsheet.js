@@ -35,6 +35,14 @@ $('#button2').click(function() {
 	$( "#img3" ).fadeIn();
 });
 
+
+$("#button3").click(function(){
+        $("#img4").animate({
+            left: '150px',
+            height: '+=150px',
+            width: '+=150px'
+        });
+    });
 // $('li').click(function() { 
 // 	console.log( $(this) )
 // 	$(this).find( "#p2" ).hide();
